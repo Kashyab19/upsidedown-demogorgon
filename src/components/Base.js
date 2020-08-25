@@ -2,6 +2,8 @@ import React from 'react';
 import { Link } from 'react-router-dom';
 import {motion} from "framer-motion"
 
+
+
 const containerVariants = {
   hidden:{
     opacity:0,
@@ -31,6 +33,8 @@ const Base = ({ addBase, pizza }) => {
   const bases = ['Demogorgon', 'Tanurmon', 'Crustorgon'];
 
   return (
+   
+
     <motion.div className="base container"
     variants={containerVariants}
     initial="hidden"
